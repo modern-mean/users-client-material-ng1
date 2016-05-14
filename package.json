@@ -1,0 +1,33 @@
+{
+  "name": "modern-mean-users-material",
+  "version": "0.0.1",
+  "description": "Users Module for ModernMEAN",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modern-mean/modern-mean-users.git"
+  },
+  "keywords": [
+    "Users"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modern-mean/modern-mean-users/issues"
+  },
+  "homepage": "https://github.com/modern-mean/modern-mean-users#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "modern-mean-build-gulp": "github:modern-mean/build-gulp",
+    "modern-mean-core-client-material-ng1": "github:modern-mean/core-client-material-ng1",
+    "modern-mean-core-material": "github:modern-mean/core-material",
+    "modern-mean-core-server": "github:modern-mean/core-server",
+    "modern-mean-users-server": "github:modern-mean/users-server"
+  }
+}

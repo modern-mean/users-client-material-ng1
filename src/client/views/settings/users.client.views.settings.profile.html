@@ -1,0 +1,34 @@
+<md-content>
+  <div class="user-profile-background" layout="row" style="background-image: url('/dist/img/modern-mean-users-material/profile/background.jpg');">
+    <img class="user-profile-picture" ng-src="{{vm.user.profileImageURL}}" alt="User Profile Picture" />
+    <div>{{vm.user.name.full}}</div>
+  </div>
+
+  <md-tabs md-dynamic-height md-border-bottom>
+    <md-tab label="Personal">
+      <md-content class="md-padding">
+        <div ui-view="personal"></div>
+      </md-content>
+    </md-tab>
+    <md-tab label="Email">
+      <md-content class="md-padding">
+        <div ui-view="email"></div>
+      </md-content>
+    </md-tab>
+    <md-tab label="Address">
+      <md-content class="md-padding">
+        <div ui-view="address"></div>
+      </md-content>
+    </md-tab>
+    <md-tab label="Picture">
+      <md-content class="md-padding">
+        <div ui-view="picture"></div>
+      </md-content>
+    </md-tab>
+    <md-tab label="Password">
+      <md-content class="md-padding">
+        <div ui-view="password"></div>
+      </md-content>
+    </md-tab>
+  </md-tabs>
+</md-content>
